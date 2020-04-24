@@ -1,0 +1,151 @@
+
+ul{
+    list-style-type:none;
+    background-color:green;
+    overflow:hidden;
+    padding:0;
+    
+}
+.gambar {
+    float: left;
+}
+li a {
+    
+    display: black;
+    color:white;
+    text-decoration:none;
+    padding:20px 20px ;
+    float:left;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logout{
+    display: black;
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+}
+div a:hover{
+    transition: all 0.5s ease-in;
+    color:black;
+}
+li a:hover{
+background-color:lightgray;
+transition: all 0.5s ease-in;
+color:black;
+}
+.submit{
+    border:none;
+    width:100%;
+    height:30px;
+    border-radius: 3px;
+    transition:all 0.5s ease-in-out;
+}
+.submit:hover{
+    background-color: green;
+    color:white;
+    
+}
+.judul{
+    font-family:arial;
+}
+.judul2{
+    font-family:arial;
+}
+/* body{
+font-family:sans-serif;
+} */
+h1 {color:green;
+    font-family: arial; 
+    font-style: italic; 
+    font-variant: small-caps;
+    }
+p{
+    color: #000000;
+    text-indent: 100px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.tabel{
+    border: 0px solid;
+    background-color: lightgray;
+    border-radius: 5px;
+    box-shadow: darkgrey 0 0 20px 5px;
+}
+.table{
+    box-shadow: darkgrey 0 0 20px;
+}
+.tambah:hover{
+    background-color: #20bf6b;
+    cursor: pointer;
+    transition:all 0.5s ease-out;
+}
+a button{
+    border-radius: 10px;
+    width:120;
+    font-family: Arial, Helvetica, sans-serif;
+}
+thead{
+background-color: green;
+color:whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+}
+.table tbody tr:nth-of-type(odd){
+background-color: lightgray;
+font-family: Arial, Helvetica, sans-serif;
+}
+.table tbody tr:last-of-type{
+background-color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+.table tbody tr{
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th,td{
+    padding:15px 15px;
+}
+tr{
+    text-align: center;
+}
+td a .edit{
+background-color: rgb(24, 187, 24);;
+width:80px;
+border: none;
+border-radius: 5px; 
+color: white;
+cursor: pointer;
+font-family: Arial, Helvetica, sans-serif;
+transition:all 0.2s ease-in;
+}
+td a .edit:hover{
+    color: black;
+}
+td a .delete{
+    background-color: red;
+    width:80px;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:all 0.2s ease-in;
+}
+td a .delete:hover{
+    color:black;
+}
+.footer{
+    width: 99%;
+    height: 40px;
+    padding-left: 10px;
+    line-height: 10px;
+    background: green;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    font-family: arial;
+    text-align: center;
+}
